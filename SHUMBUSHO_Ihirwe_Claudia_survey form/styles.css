@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    position: inherit;
+}
+body{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* display: grid; */
+    background: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(./mybackground.jpeg);
+    font-size: 18px;
+    width: 100%;
+    margin: 0;
+    background-attachment: fixed;
+}
+/* title */
+.title{
+    text-align: center;
+    color: aliceblue;
+    padding: 40px;
+}
+#description{
+    /* opacity: 0.4; */
+    padding-top: 10px;
+}
+#survey-form{
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 30px;
+    margin: 0rem 25rem ;
+    color: aliceblue;
+    max-width: 100%;
+    border-radius: 5px;
+}
+/* personal identification */
+input[type="text"]{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+    font-size: 110%;
+    margin: 0px 0 20px 0;
+    border-radius: 5px;
+}
+input[type="email"]{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+    font-size: 110%;
+    margin: 0px 0 20px 0;
+    border-radius: 5px;
+}
+input[type="number"]{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+    font-size: 110%;
+    margin: 0px 0 20px 0;
+    border-radius: 5px;
+}
+#last{
+    font-size: 110%;
+}
+.same{
+    padding: 10px 0 0 0;
+}
+/* select */
+#dropdown{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    padding: 7px;
+    font-size: 110%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#opa{
+    opacity: 0.6;
+}
+#para{
+    padding-bottom: 10px;
+    font-size: 110%;
+}
+/* radio input */
+input[type="radio"]{
+    width: 20px;
+    height: 15px;
+    margin-bottom: 15px;
+}
+/* checkbox input */
+input[type="checkbox"]{
+    width: 20px;
+    height: 15px;
+    margin-bottom: 15px;
+
+} 
+/* comment section */
+textarea{
+    width: 100%;
+    margin: 10px 0;
+    font-family: inherit;
+    font-size: 90%;
+    min-height: 120px;
+    padding: 0.625rem; 
+}
+
+/* Submit button */
+input[type="submit"]{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: #37af65;
+    padding: 15px;
+    margin: 10px 0;
+}
